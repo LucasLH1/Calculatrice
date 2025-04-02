@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButtonBase">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:layout_margin">4dp</item> <!-- 👈 marge entre les boutons -->
+    </style>
+
+    <style name="CalcButtonNumber" parent="CalcButtonBase">
+        <item name="android:background">@drawable/bg_button_number</item>
+    </style>
+
+    <style name="CalcButtonOperator" parent="CalcButtonBase">
+        <item name="android:background">@drawable/bg_button_operator</item>
+    </style>
+
+    <style name="CalcButtonFunction" parent="CalcButtonBase">
+        <item name="android:background">@drawable/bg_button_function</item>
+    </style>
+
+</resources>
